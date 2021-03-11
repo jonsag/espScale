@@ -1,3 +1,8 @@
+String programName = "espIOTScale";
+String date = "20210311";
+String author = "Jon Sagebrand";
+String email = "jonsagebrand@gmail.com";
+
 /**********
  * HX711
  **********/
@@ -25,8 +30,10 @@ const int serialSpeed = 115200;
 
 // SCL -> D1
 // SDA -> D2
+const int LCDColumns = 16;
+const int LCDRows = 2;
 
-LiquidCrystal_I2C lcd(0x27, 16, 2);
+LiquidCrystal_I2C lcd(0x27, LCDColumns, LCDRows);
 
 /**********
  * WiFi
@@ -44,3 +51,8 @@ int rbutton = D4; // this button will be used to reset the scale to 0
  * Misc
  **********/
 float weight;
+float oldWeight = -1;
+
+unsigned long currentMillis;
+unsigned long lastReadMillis = 0;
+const int iterationMillis = 2000;

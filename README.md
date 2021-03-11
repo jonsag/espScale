@@ -13,3 +13,5 @@ Blynk instructions at [https://blynk.io/en/getting-started](https://blynk.io/en/
 I2C addresses:  
 HX711 module: n/a  
 LCD screen: 0x27  
+
+Blynk [github](https://github.com/blynkkk/blynk-library)  
