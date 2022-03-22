@@ -6,6 +6,8 @@ A NodeMCU measuring weight with loadcells
 
 Instructions at [https://how2electronics.com/iot-weighing-scale-hx711-load-cell-esp8266/](https://how2electronics.com/iot-weighing-scale-hx711-load-cell-esp8266/)  
 
+Connect four load cells to one amplifier: [https://circuitjournal.com/50kg-load-cells-with-HX711](https://circuitjournal.com/50kg-load-cells-with-HX711)  
+
 Blynk instructions at [https://blynk.io/en/getting-started](https://blynk.io/en/getting-started)  
 
 ## Misc

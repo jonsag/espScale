@@ -7,10 +7,10 @@
  * char auth[] = "<your blynk token>"; // you should get auth token in the Blynk app 
  **********/
 
+#include <Arduino.h>
+
 #include "config.h"
 #include "secrets.h"
-//#include "testLCD.h"
-//#include "esp8266_i2c_scanner.h"
-//#include "calibrate.h"
-//#include "LCDScale.h"
+
+// Run the actual code
 #include "blynkScale.h"
