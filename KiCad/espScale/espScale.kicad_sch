@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "espScale")
+    (date "2022-09-18")
+    (rev "0.1")
+  )
+
   (lib_symbols
     (symbol "My_ESP8266:NodeMCU1.0(ESP-12E)" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 21.59 0)
@@ -658,7 +664,7 @@
     (property "Value" "~" (id 1) (at 146.7612 135.0522 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "My_Headers:3-pin_load_cell_header_large" (id 2) (at 139.319 124.841 0)
+    (property "Footprint" "My_Headers:3-pin JST load cell" (id 2) (at 139.319 124.841 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 139.319 124.841 0)
@@ -808,7 +814,7 @@
     (uuid 8af7217e-6b6b-49c7-a1b8-be8a38ecb040)
     (property "Reference" "U2" (id 0) (at 95.25 97.316 0))
     (property "Value" "3-wire_Load_Cell" (id 1) (at 95.25 99.8529 0))
-    (property "Footprint" "My_Headers:3-pin_load_cell_header_large" (id 2) (at 98.171 99.441 0)
+    (property "Footprint" "My_Headers:3-pin JST load cell" (id 2) (at 98.171 99.441 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 98.171 99.441 0)
@@ -845,7 +851,7 @@
     (property "Value" "3-wire_Load_Cell" (id 1) (at 146.7612 109.6522 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "My_Headers:3-pin_load_cell_header_large" (id 2) (at 139.319 99.441 0)
+    (property "Footprint" "My_Headers:3-pin JST load cell" (id 2) (at 139.319 99.441 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 139.319 99.441 0)
@@ -877,7 +883,7 @@
     (uuid d6d827e1-8037-4a64-9433-b930cfff7250)
     (property "Reference" "U3" (id 0) (at 95.25 122.716 0))
     (property "Value" "~" (id 1) (at 95.25 125.2529 0))
-    (property "Footprint" "My_Headers:3-pin_load_cell_header_large" (id 2) (at 98.171 124.841 0)
+    (property "Footprint" "My_Headers:3-pin JST load cell" (id 2) (at 98.171 124.841 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 98.171 124.841 0)
@@ -934,16 +940,16 @@
       (reference "U1") (unit 1) (value "NodeMCU1.0(ESP-12E)") (footprint "My_ESP8266:NodeMCU-LoLinV3_w_pinsockets_large")
     )
     (path "/8af7217e-6b6b-49c7-a1b8-be8a38ecb040"
-      (reference "U2") (unit 1) (value "3-wire_Load_Cell") (footprint "My_Headers:3-pin_load_cell_header_large")
+      (reference "U2") (unit 1) (value "3-wire_Load_Cell") (footprint "My_Headers:3-pin JST load cell")
     )
     (path "/d6d827e1-8037-4a64-9433-b930cfff7250"
-      (reference "U3") (unit 1) (value "~") (footprint "My_Headers:3-pin_load_cell_header_large")
+      (reference "U3") (unit 1) (value "~") (footprint "My_Headers:3-pin JST load cell")
     )
     (path "/bad23df6-f465-434f-8740-c4824bad6534"
-      (reference "U4") (unit 1) (value "3-wire_Load_Cell") (footprint "My_Headers:3-pin_load_cell_header_large")
+      (reference "U4") (unit 1) (value "3-wire_Load_Cell") (footprint "My_Headers:3-pin JST load cell")
     )
     (path "/3209d3a7-a6c2-49ab-93de-4f7ab80f7cda"
-      (reference "U5") (unit 1) (value "~") (footprint "My_Headers:3-pin_load_cell_header_large")
+      (reference "U5") (unit 1) (value "~") (footprint "My_Headers:3-pin JST load cell")
     )
     (path "/3c667cba-91d1-4464-8b34-8c6b7fcac30a"
       (reference "U6") (unit 1) (value "HX711_Load_Cell_Amplifier") (footprint "My_Parts:HX711 Load Cell Amplifier w_pinsockets_large")
